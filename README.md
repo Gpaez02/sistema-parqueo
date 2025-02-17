@@ -39,4 +39,4 @@ El sistema genera un reporte con los vehículos registrados, mostrando detalles 
 1. **Compilar el proyecto**:
    Si estás usando la terminal, navega hasta el directorio donde tienes el archivo `Main.java` y compílalo con el siguiente comando:
    ```bash
-   javac Main.java
+   java Main.java
