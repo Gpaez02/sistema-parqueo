@@ -32,6 +32,9 @@ public class Parqueadero {
         System.out.println("Ingrese tipo de vehículo (1: Automóvil, 2: Motocicleta, 3: Camión): ");
         System.out.println("=====================================");
 
+
+        
+
         int tipo = 0;  // Inicializamos la variable para el tipo de vehículo
 
         // Bucle para asegurarse de que el usuario ingrese un valor válido
