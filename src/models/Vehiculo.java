@@ -3,20 +3,20 @@ package models;
 import java.time.LocalDateTime;
 
 public class Vehiculo {
-    private String placa;
-    private String marca;
-    private String modelo;
-    private LocalDateTime horaEntrada;
+    private String placa;  // Variable para almacenar la placa del vehículo
+    private String marca;  // Variable para almacenar la marca del vehículo
+    private String modelo; // Variable para almacenar el modelo del vehículo
+    private LocalDateTime horaEntrada;  // Variable para almacenar la hora de entrada al parqueadero
 
-    // Constructor
+    // Constructor de la clase Vehiculo
     public Vehiculo(String placa, String marca, String modelo, LocalDateTime horaEntrada) {
-        this.placa = placa;
-        this.marca = marca;
-        this.modelo = modelo;
-        this.horaEntrada = horaEntrada;
+        this.placa = placa;  // Inicializa la placa del vehículo
+        this.marca = marca;  // Inicializa la marca del vehículo
+        this.modelo = modelo;  // Inicializa el modelo del vehículo
+        this.horaEntrada = horaEntrada;  // Inicializa la hora de entrada del vehículo
     }
 
-    // Getters
+    // Getters para obtener los valores de los atributos
     public String getPlaca() {
         return placa;
     }
@@ -33,7 +33,7 @@ public class Vehiculo {
         return horaEntrada;
     }
 
-    // Setters
+    // Setters para modificar los valores de los atributos
     public void setPlaca(String placa) {
         this.placa = placa;
     }
